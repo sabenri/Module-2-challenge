@@ -6,14 +6,16 @@
 
 body {
     background-color: lightpink;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 0px;
 }
 
 .header {
     padding: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
     background-color: lightblue;
     color: black;
-}
-.header h1 .menu {
-    color: azure;
+    display: flex;
+
 }
