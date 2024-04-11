@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: lightpink;
+}
+
+.header {
+    padding: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: lightblue;
+    color: black;
+}
+.header h1 .menu {
+    color: azure;
+}
