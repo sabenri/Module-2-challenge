@@ -3,11 +3,20 @@
     padding: 0;
     margin: 0;
 }
+a {
+    color: lightpink;
+    text-decoration: none;
+}
+p {
+    font-size: 15px;
+}
 
 body {
     background-color: lightpink;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    height: 0px;
+   color: rgb(96, 135, 221);
+justify-content: center;
+text-align: center;
 }
 
 .header {
@@ -15,7 +24,24 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: larger;
     background-color: lightblue;
-    color: black;
+    color: lightpink; 
+    outline: 10px black;
     display: flex;
 
+}
+.header ul {
+    list-style: none;
+}
+.header ul li {
+    display: inline-block;
+    margin-left: 50px;
+}
+.header h1 {
+    display: inline-block;
+    font-size: 50px;
+}
+.About-Me
+{
+    text-align: center;
+   font-size: 100px;
 }
