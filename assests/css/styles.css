@@ -27,6 +27,7 @@ text-align: center;
     color: lightpink; 
     outline: 10px black;
     display: flex;
+    justify-content: center;
 
 }
 .header ul {
@@ -44,4 +45,29 @@ text-align: center;
 {
     text-align: center;
    font-size: 100px;
+}
+.cats{
+    display: flex;
+    margin: 10px;
+    padding: 20px;
+    justify-content: center;
+}
+#cheese,
+#spice,
+#meringue{
+    padding: 20px;
+}
+.work {
+    justify-content: center;
+    margin: 10px;
+}
+#one,
+#two,
+#three,
+#four,
+#five,
+#six
+{
+    display: ;
+    padding: 20px;
 }
